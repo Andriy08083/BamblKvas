@@ -1,0 +1,29 @@
+name: BamblKvas
+version: '${version}'
+main: ua.ave.BamblKvas
+api-version: 1.18
+commands:
+  startgame:
+    description: Start game
+    usage: /<command> to start game
+  stopgame:
+    description: Stop game
+    usage: /<command> to stop game
+  pick:
+    description: Pick a hero
+    usage: /<command> to pick hero
+  team:
+    description: Pick a team
+    usage: /<command> <team> to pick team
+  clearteam:
+    description: Clear a team
+    usage: /<command> to clear team
+  reloadconfig:
+    description: Reload config
+    usage: /<command> to reload config
+  pause:
+    description: Pause game
+    usage: /<command> to pause game
+  unpause:
+    description: Unpause game
+    usage: /<command> to unpause game
